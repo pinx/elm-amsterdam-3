@@ -31,6 +31,7 @@ const plans = {
 
 app.use(require("body-parser").json())
 app.use("/cdn", express.static("public"))
+app.use("/dist", express.static("dist"))
 app.post("/transaction", (req, res) => {
     res.json(Object.assign(req.body, {
         "id": uuid()
