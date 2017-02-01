@@ -1,0 +1,39 @@
+{
+  "name": "elm-i18n",
+  "version": "0.1.0",
+  "description": "Elm Translations",
+  "main": "index.html",
+  "bin": {
+    "elm-i18n": "./elm.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "elm-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinx/elm-i18n.git"
+  },
+  "keywords": [
+    "elm",
+    "i18n"
+  ],
+  "author": "Marcel van Pinxteren",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "chalk": "1.1.1",
+    "commander": "2.9.0",
+    "node-elm-compiler": "2.3.2",
+    "tmp": "0.0.28"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.4"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
