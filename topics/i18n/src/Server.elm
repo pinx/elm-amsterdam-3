@@ -4,7 +4,7 @@ import Http exposing (get)
 import Task exposing (perform)
 import Json.Encode exposing (Value)
 import Json.Decode exposing (at, decodeValue, field, list, int, string, float, null, oneOf, Decoder)
-import Json.Decode.Pipeline exposing (decode, required, optional, hardcoded, requiredAt)
+import Json.Decode.Pipeline exposing (decode, custom, required, optional, hardcoded, requiredAt)
 import Model exposing (..)
 import Translation exposing (..)
 
